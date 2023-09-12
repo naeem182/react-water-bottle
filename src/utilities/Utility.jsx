@@ -18,3 +18,5 @@ const AddToLocalStorage = id => {
     SaveCartToLocalStorage(cart)
 
 }
+
+export { AddToLocalStorage, getStoredCard }
