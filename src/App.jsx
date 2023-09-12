@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Bottles from './components/Bottles/Bottles'
+import Header from './components/Header/header'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-
-      <h1>React Water Bottle</h1>
+      <Header></Header>
+      <Bottles></Bottles>
 
     </>
   )
